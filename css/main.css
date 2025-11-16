@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+h2 {
+  color: rgb(246, 168, 24);
+  font-size: 2.5rem;
+}
+
+body {
+  padding: 5rem 9rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h_nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+}
+.h_nav_btn {
+  display: none;
+}
+.h_nav_a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.5s;
+  font-family: url(/assets/fonts/static/);
+}
+.h_nav_a:hover {
+  color: rgb(240, 96, 63);
+}
+
+.main {
+  padding: 3rem 0;
+}
+.s_1 {
+  height: 700px;
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.m_s_div {
+  display: grid;
+  gap: 35px;
+
+  width: 52rem;
+}
+.img_pc {
+  width: 52rem;
+}
+.img_mobile {
+  display: none;
+}
+.m_s_d_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.m_s_d_i_div {
+  width: 25rem;
+  height: 218px;
+  display: grid;
+}
+.info_p {
+  height: 55%;
+  color: gray;
+}
+.info_btn {
+  justify-self: baseline;
+  padding: 0.002rem 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: rgb(181, 73, 73);
+  border: 0;
+  transition: 0.5s;
+}
+.info_btn:hover {
+  color: white;
+  background-color: black;
+}
+
+aside {
+  height: 85%;
+  background-color: black;
+  color: white;
+  padding: 35px;
+  gap: 10px;
+}
+.card {
+  padding: 2.4rem 0;
+  p {
+    margin-top: 10px;
+  }
+  h3:hover {
+    color: rgb(246, 168, 24);
+  }
+}
+h3 {
+  font-size: 1.6rem;
+  transition: 0.5s;
+}
+hr {
+  background-color: rgba(123, 123, 123, 0.718);
+}
+
+.s_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card_2 {
+  img {
+    width: 6.5rem;
+  }
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  article {
+    gap: 15px;
+    h3 {
+      font-size: 2.2rem;
+      color: rgb(255, 108, 59);
+    }
+    h4 {
+      font-size: 1.6rem;
+      transition: 0.5s;
+    }
+    h4:hover {
+      color: rgb(255, 108, 59);
+    }
+  }
+}
